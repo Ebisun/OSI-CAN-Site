@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/header/Header'
-import Navbar from './components/navbar/Navbar';
+import Main from './components/main/Main';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <Navbar />
+      <Main />
     </>
   )
 }

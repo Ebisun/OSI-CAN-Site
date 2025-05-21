@@ -1,0 +1,22 @@
+.navbar li{
+    max-height: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.navbar li:hover{
+    background-color: white;
+    color: brown;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar input{
+    font-size: large;
+}

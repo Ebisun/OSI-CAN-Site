@@ -11,12 +11,6 @@ export default function Header(){
                     </div>
           
             </div>
-            <div className={styles.helpline}>
-
-                    <h2>24/7 Crisis / Suicide Hotline: Just dial 988</h2>
-                    <h3>Click to call</h3>
-
-            </div>
         </>
     )
 }

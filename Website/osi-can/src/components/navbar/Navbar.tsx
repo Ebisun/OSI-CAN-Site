@@ -1,6 +1,8 @@
+import styles from "./Navbar.module.css";
+
 export default function Navbar(){
     return(
-        <>
+        <div className={styles.navbar}>
             <input typeof="text"></input>
             <ul>
                 <li>Home</li>
@@ -13,6 +15,6 @@ export default function Navbar(){
                 <li>Blogs & Podcasts</li>
                 <li>Events & Workshops</li>
             </ul>
-        </>
+        </div>
     )
 }
